@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct Movie_assgnApp: App {
+struct MovieExplorerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: SavedMovie.self)
     }
 }
