@@ -11,7 +11,7 @@ import SwiftUI
 // Contains: API calls, image URL generation, fallback data
 
 class TMDBService: ObservableObject {
-    private let apiKey = "35fd3412de0583993dfea02c169c1472"
+    private let apiKey = "MY API KEY"
     private let baseURL = "https://api.themoviedb.org/3"
     private let imageBaseURL = "https://image.tmdb.org/t/p/w500"
     
